@@ -1,0 +1,31 @@
+
+.back-to-top {
+  position: fixed;
+  /* visibility: hidden;
+  opacity: 0; */
+  right: 15px;
+  bottom: 15px;
+  z-index: 10;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+@media (max-width:550px){
+    iframe{
+        width: auto;
+        height: 350px;
+    }
+}
+
+.remove-overflow{
+  overflow-x: hidden;
+}
